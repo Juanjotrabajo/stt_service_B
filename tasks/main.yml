@@ -2,4 +2,4 @@
 # tasks file for service_B_role
 - name: hello from service_B role
   debug:
-    msg: "This is service_B role, version ***4.2***"
+    msg: "This is service_B role, version 0.1"
