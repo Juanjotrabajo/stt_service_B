@@ -3,3 +3,6 @@
 - name: hello from service_B role
   debug:
     msg: "This is service_B role, version 1.0"
+- import_role:
+    name: ../common_roles/commonRole_B
+    tasks_from: main.yml
